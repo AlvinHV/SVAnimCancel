@@ -17,19 +17,19 @@ To use this tool, you can run it from the command line with the following option
 
 
 # Display the help text
-./stardew-animation-canceler -h
+./SVAnimCancel -h
 
 # Record and set a new key for animation canceling
-./stardew-animation-canceler -r
+./SVAnimCancel -r
 
 # Reset the configuration to default settings
-./stardew-animation-canceler -e
+./SVAnimCancel -e
 
 # Start the tool as a service
-./stardew-animation-canceler --start
+./SVAnimCancel --start
 
 # Stop the service
-./stardew-animation-canceler --stop
+./SVAnimCancel --stop
 
 ## Running as a Service
 If you want to run this tool as a service, you can use the `--start` and `--stop` options. Make sure to specify `--start` to initiate the service and `--stop` to stop it.
